@@ -1,0 +1,31 @@
+.product{
+    width: 230px;
+    display: flex;
+    border: 1px solid #000;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+.name{
+    font-weight: 700;
+    font-size: 18px;
+}
+.price{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.product img{
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+
+button{
+    cursor: pointer;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
